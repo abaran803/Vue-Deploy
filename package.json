@@ -1,8 +1,11 @@
 {
+  "homepage": "http://abaran803.github.io/vue-static",
   "name": "slot-children",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
